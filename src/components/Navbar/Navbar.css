@@ -24,8 +24,24 @@
   display: flex;
   align-items: center;
 }
+
+.cart--total{
+  position: relative;
+}
+
 .cart{
   margin-right: .7rem;
+}
+.total{
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  background-color: hsl(26, 100%, 55%);
+  color: #fff;
+  font-size: .7rem;
+  padding: .001rem .2rem;
+  border-radius: 50%;
+  font-weight: 700;
 }
 
 .cart:hover, .avatar:hover{
@@ -38,8 +54,8 @@
 .hoverresultdiv{
   height: 200px;
   width: 90%;
-  background-color: red;
-  box-shadow: 0px 5px 3px red;
+  background-color: hsl(26, 100%, 55%);
+  box-shadow: 0px 5px 3px hsl(26, 100%, 55%);
   position: absolute;
   right: 20px;
   top: 80px;
