@@ -23,9 +23,11 @@
   width: 21.875rem;
   position: absolute;
   right: -46.9px;
-  top: 3.2rem;
+  top: 2.8rem;
   border-radius: 10px;
   box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.19);
+  z-index: 99;
+  background-color: #fff;
   /* box-shadow: 1px 1px 2px 1px gray; */
 
 
