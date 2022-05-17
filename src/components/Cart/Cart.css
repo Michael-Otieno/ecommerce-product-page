@@ -55,7 +55,115 @@ hr{
   font-weight: 400;
 }
 
+.sidebar{
+  display: block;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25rem;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.no-sidebar{
+  display: none;
+}
+
+.side-bar-elements{
+  background-color: #fff;
+  height: 100vh;
+  width: 15rem;
+
+}
+
+.close-icon{
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.sidebar--menu{
+  line-height: 2;
+  list-style: none;
+  margin: 0;
+  padding-left: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+
+.desktop--menu{
+  display: none;
+}
+
 @media only screen and (min-width: 1000px) {
+  
+  .sidebar{
+    display: none;
+  }
+
+  .hamburger--logo{
+    display: none;
+  }
+
+  .desktop--menu{
+    display: block;
+    
+  }
+  .navbar{
+    margin: 3rem 6rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(155, 152, 152);
+  }
+
+  .logo--menu{
+    display: flex;
+    
+  }
+
+  .collection,
+  .men, 
+  .women,
+  .about,
+  .contact{
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .collection:hover,
+  .men:hover, 
+  .women:hover,
+  .about:hover,
+  .contact:hover{
+    padding-bottom: 2.9rem;
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+    cursor: pointer;
+  }
+  
+  .avatar{
+    width: 50px;
+    margin-left: 1.4rem;
+  }
+
+
+  .cart{
+    width: 40px;
+  }
+
+  .total{
+    bottom: 60%;
+    font-size: 1rem;
+    padding: .01rem .3rem;
+  }
+  
+  .toggle{
+    z-index: 999;
+    background-color: white;
+    right:-90px;
+    width: 25rem;
+    font-size: 1.3rem;
+  }
 
 
 }

@@ -4,7 +4,7 @@ import './Cart.css'
 import cart from '../../images/icon-cart.svg'
 
 export default function Cart(){
-  const [showCart, setShowCart] = useState(true);
+  const [showCart, setShowCart] = useState(false);
 
   function toggleCart(){
     setShowCart(prevMode => !prevMode)
