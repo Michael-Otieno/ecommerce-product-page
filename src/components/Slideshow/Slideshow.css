@@ -3,8 +3,9 @@
   height: 300px;
 }
 
-.phone--slideshow{
+.phone--page{
   position: relative;
+ 
 }
 
 .nextBtn{
@@ -31,3 +32,16 @@
   border-radius: 50%;
 }
 
+@media only screen and (min-width:1000px){
+  .phone--page{
+    display: none;
+  }
+
+  /* .desktop--page{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 8rem;
+  } */
+
+
+}

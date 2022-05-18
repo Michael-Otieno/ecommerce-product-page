@@ -1,0 +1,22 @@
+.details{
+  padding: 1rem 1.5rem;
+}
+
+.details--title{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(26, 100%, 55%);
+}
+.details--sub--title{
+  margin: .6rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(220, 13%, 13%);
+}
+
+.details--para{
+  line-height: 1.5;
+  color:  hsl(219, 9%, 45%);
+}

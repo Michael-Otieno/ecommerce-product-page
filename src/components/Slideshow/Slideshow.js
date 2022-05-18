@@ -5,16 +5,13 @@ import image1 from "../../images/image-product-2.jpg";
 import image2 from "../../images/image-product-3.jpg";
 import image3 from "../../images/image-product-4.jpg";
 
-import thumbnail0 from "../../images/image-product-1-thumbnail.jpg";
-import thumbnail1 from "../../images/image-product-2-thumbnail.jpg";
-import thumbnail2 from "../../images/image-product-3-thumbnail.jpg";
-import thumbnail3 from "../../images/image-product-4-thumbnail.jpg";
 
 import './Slideshow.css';
 
 import prevBtn from "../../images/icon-next.svg";
 import nextBtn from "../../images/icon-previous.svg";
 
+import Details from '../Details/Details'
 
 
 export default function Slideshow({imgs}){
@@ -45,24 +42,47 @@ export default function Slideshow({imgs}){
 
   
   return (
-    <div className="phone--slideshow">
-      <img 
+    <div>
+      <div className="phone--page">
+        <img 
         src={imgs[index]}
         className='img'
+        alt="images"
         />
-      <div>
-        <img 
-        src={nextBtn}
-        onClick={next}
-        className="nextBtn"
-        />
-        <img 
-        src={prevBtn}
-        onClick={prev}
-        className="prevBtn"
-        />
-        
+        <div>
+          <img 
+          src={nextBtn}
+          onClick={next}
+          className="nextBtn"
+          alt="next icon"
+          />
+          <img 
+          src={prevBtn}
+          onClick={prev}
+          className="prevBtn"
+          alt="previous icon"
+          />       
+        </div>
+
+        <div className="desktop--page">
+        <div className="desktop--shoe--slider">
+          <Details />
+        </div>
+        <div className="desktop--shoe--detail">
+          nnnnn
+        </div>
+
       </div>
+      </div>
+      {/* <div className="desktop--page">
+        <div className="desktop--shoe--slider">
+          <Carousel />
+        </div>
+        <div className="desktop--shoe--detail">
+          nnnnn
+        </div>
+
+      </div> */}
     </div>
   )
 }
