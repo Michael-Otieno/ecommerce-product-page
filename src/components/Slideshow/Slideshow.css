@@ -10,7 +10,7 @@
 
 .nextBtn{
   position: absolute;
-  top: 40%;
+  top: 18%;
   left: 5%;
   background-color: white;
   padding: .6rem;
@@ -22,7 +22,7 @@
 
 .prevBtn{
   position: absolute;
-  top: 40%;
+  top: 18%;
   right: 5%;
   background-color: white;
   padding: .6rem;
@@ -33,15 +33,5 @@
 }
 
 @media only screen and (min-width:1000px){
-  .phone--page{
-    display: none;
-  }
-
-  /* .desktop--page{
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem 8rem;
-  } */
-
-
+  
 }

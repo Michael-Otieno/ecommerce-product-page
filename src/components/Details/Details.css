@@ -19,4 +19,6 @@
 .details--para{
   line-height: 1.5;
   color:  hsl(219, 9%, 45%);
+  margin-top: 0;
+  margin-bottom: 0;
 }
