@@ -10,7 +10,7 @@
 
 .nextBtn{
   position: absolute;
-  top: 18%;
+  top: 40%;
   left: 5%;
   background-color: white;
   padding: .6rem;
@@ -22,7 +22,7 @@
 
 .prevBtn{
   position: absolute;
-  top: 18%;
+  top: 40%;
   right: 5%;
   background-color: white;
   padding: .6rem;
