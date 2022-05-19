@@ -97,6 +97,64 @@ hr{
   display: none;
 }
 
+.cart--detail--checkout{
+  margin-top: 20px;
+}
+
+.cart--detail--para{
+  color: hsl(219, 9%, 45%);
+  font-weight: 400;
+}
+
+.cart--detail--para span{
+ font-weight: 700;
+ color: #000;
+}
+
+.cart--detail--content{
+  margin: .5rem 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.checkout--btn{
+  width: 90%;
+  background-color: hsl(26, 100%, 55%);
+  padding: 1rem 0rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.cart--image{
+  width: 20%;
+  height: 3.75rem;
+  border-radius: 5px;
+}
+
+.deleteIcon{
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+}
+
+.checkout--btn--div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart--detail--para{
+  margin-inline: 15px;
+}
+
 @media only screen and (min-width: 1000px) {
   
   .sidebar{

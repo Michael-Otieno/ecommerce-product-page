@@ -9,6 +9,7 @@ import logo from "../../images/logo.svg";
 
 export default function Navbar(props) {
   const [sidebar, setSidebar] = useState(false);
+  
 
   function toggleSidebar() {
     setSidebar((prevMode) => !prevMode);
@@ -67,7 +68,10 @@ export default function Navbar(props) {
 
       {/* cart and profile photo */}
       <div className="basket--profile">
-        <Cart />
+        <Cart 
+        // item={props.item}
+        // addToCart={props.addToCart}
+        />
         <div>
           <img className="avatar" src={avatar} alt="shopping cart" />
         </div>
