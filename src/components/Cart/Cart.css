@@ -155,6 +155,8 @@ hr{
   margin-inline: 15px;
 }
 
+
+
 @media only screen and (min-width: 1000px) {
   
   .sidebar{
@@ -166,7 +168,9 @@ hr{
   }
 
   .desktop--menu{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
   }
   .navbar{
@@ -217,12 +221,25 @@ hr{
   }
   
   .toggle{
-    z-index: 999;
-    background-color: white;
-    right:-90px;
+    /* z-index: 999; */
+    /* background-color: white; */
+    right:-120px;
     width: 25rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+  .cart--content{
+    line-height: 1;
   }
 
+  .cart--toggle{
+    line-height: 1;
+  }
+  .cart--detail--checkout{
+    margin-top: 1rem;
+  }
+  .cart--title{
+    font-size: 1.5rem;
+  }
+  
 
 }

@@ -14,7 +14,7 @@ export default function Addcart(props) {
     <div className="addcart">
       <div className="price">
         <div className="actual--percentage">
-          <p className="actual--price">${props.price}</p>
+          <p className="actual--price">${props.price}.00</p>
           <p className="percentage">50%</p>
         </div>
         <p className="prev--price">$250.00</p>
@@ -48,3 +48,4 @@ export default function Addcart(props) {
     </div>
   );
 }
+

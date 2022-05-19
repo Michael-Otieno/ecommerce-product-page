@@ -34,20 +34,22 @@ function App() {
   return (
     <div className="App">
       <Navbar 
-      // item={item}
-      // addToCart={addToCart}
       />
-      <Slideshow 
+      <div className='desktop--page'>
+        <Slideshow />
+        <div className='details--addcart--comp'
+        >
+          <Details />
+          <Addcart
+          item={item}
+          price={price}
+          subtractItem={subtractItem}
+          addItem={addItem}
+          addToCart={addToCart}
+          />
+        </div>
+      </div>
       
-      />
-      <Details />
-      <Addcart
-      item={item}
-      price={price}
-      subtractItem={subtractItem}
-      addItem={addItem}
-      addToCart={addToCart}
-       />
     </div>
   );
 }

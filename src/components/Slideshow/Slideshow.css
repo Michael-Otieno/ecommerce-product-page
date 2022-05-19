@@ -33,5 +33,21 @@
 }
 
 @media only screen and (min-width:1000px){
-  
+  .phone--page{
+    display: none;
+  }
+  .desktop--page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0rem 0rem; */
+  }
+  .details--addcart--comp{
+    width: 50%;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    /* max-width: 28rem; */
+    padding-right: 1rem;
+  }
+
 }

@@ -33,3 +33,11 @@
   transition: all ease-out;
 }
 
+@media only screen and (min-width: 1000px){
+  .desktop--menu{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+}

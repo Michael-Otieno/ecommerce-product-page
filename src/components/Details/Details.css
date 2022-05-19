@@ -1,7 +1,6 @@
 .details{
   padding: 1rem 1.5rem;
 }
-
 .details--title{
   margin: 0;
   text-transform: uppercase;
@@ -15,10 +14,22 @@
   font-weight: 700;
   color: hsl(220, 13%, 13%);
 }
-
 .details--para{
   line-height: 1.5;
   color:  hsl(219, 9%, 45%);
   margin-top: 0;
   margin-bottom: 0;
+}
+@media only screen and (min-width:1000px){
+  .details--sub--title{
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    
+    }
+
+.details--para {
+  max-width: 401px;
+}
 }
