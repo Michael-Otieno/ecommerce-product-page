@@ -110,6 +110,9 @@
   }
   .total--shoes{
     width: 30%;
+    padding: .7rem 0rem;
+    
+
   }
 
   .addcart{
@@ -119,8 +122,9 @@
     width: 46%;
     position: absolute;
     right: 17%;
-    top: 60%;
-    box-shadow: 0 0px 6px 0 hsl(26, 100%, 55%), 0 4px 3px 0 hsl(26, 100%, 55%);
+    top: 65%;
+    /* box-shadow: 0 0px 6px 0 hsl(26, 100%, 55%), 0 4px 3px 0 hsl(26, 100%, 55%); */
+    box-shadow: 0 0px 10px 0px hsl(26, 100%, 55%);
   }
 }
 

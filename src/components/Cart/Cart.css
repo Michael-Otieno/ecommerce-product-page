@@ -1,6 +1,7 @@
 
 .cart--toggle{
   position: relative;
+  
 }
 
 .cart{
@@ -16,16 +17,18 @@
   padding: .001rem .2rem;
   border-radius: 50%;
   font-weight: 400;
+  border: none;
+  outline: none;
 }
 
 .toggle{
   height: 15.625rem;
   width: 21.875rem;
   position: absolute;
-  right: -46.9px;
+  right: -58.9px;
   top: 2.8rem;
   border-radius: 10px;
-  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px 0px;
   z-index: 99;
   background-color: #fff;
 
@@ -45,6 +48,7 @@
 
 hr{
   margin: 0;
+  color: hsl(219, 9%, 45%);
 }
 
 .cart--content{
@@ -171,11 +175,12 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin: 0; */
+    /* padding: 0; */
     
   }
   .navbar{
     margin: 3rem 6rem;
-    padding-bottom: 2rem;
     border-bottom: 1px solid rgb(155, 152, 152);
   }
 
@@ -192,6 +197,7 @@ hr{
     margin-left: 1.5rem;
     font-size: 1.3rem;
     font-weight: 400;
+    color: hsl(220, 14%, 75%);
   }
 
   .collection:hover,
@@ -199,20 +205,16 @@ hr{
   .women:hover,
   .about:hover,
   .contact:hover{
-    padding-bottom: 2.9rem;
+    padding-bottom: 2.7rem;
     border-bottom: 3px solid hsl(26, 100%, 55%);
     cursor: pointer;
+    color: hsl(220, 13%, 13%);
   }
   
   .avatar{
-    width: 50px;
-    margin-left: 1.4rem;
+    margin-left: 1rem;
   }
 
-
-  .cart{
-    width: 40px;
-  }
 
   .total{
     bottom: 60%;
@@ -221,10 +223,10 @@ hr{
   }
   
   .toggle{
-    /* z-index: 999; */
+    z-index: 999;
     /* background-color: white; */
-    right:-120px;
-    width: 25rem;
+    right:-130px;
+    width: 22rem;
     font-size: 1rem;
   }
   .cart--content{
@@ -238,7 +240,11 @@ hr{
     margin-top: 1rem;
   }
   .cart--title{
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+  .navbar{
+    padding: 0;
+    padding-bottom: 2rem;
   }
   
 

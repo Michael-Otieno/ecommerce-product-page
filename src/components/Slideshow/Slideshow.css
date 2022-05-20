@@ -45,9 +45,11 @@
   .details--addcart--comp{
     width: 50%;
     line-height: 1.5;
-    margin-top: 1.5rem;
-    /* max-width: 28rem; */
-    padding-right: 1rem;
+    margin-top: 3rem;
+    line-height: 2;
+    padding-right: 4rem;
+    margin-left: 11rem;
+    max-width: 501px;
   }
 
 }

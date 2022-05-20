@@ -19,6 +19,7 @@ export default function Navbar(props) {
     setSidebar((prevMode) => !prevMode);
   }
 
+
   return (
     <div className="navbar">
       <div className="hamburger--logo">
@@ -72,9 +73,9 @@ export default function Navbar(props) {
         // item={props.item}
         // addToCart={props.addToCart}
         />
-        <div>
+        {/* <div> */}
           <img className="avatar" src={avatar} alt="shopping cart" />
-        </div>
+        {/* </div> */}
       </div>
       {/* cart and profile end */}
     </div>
