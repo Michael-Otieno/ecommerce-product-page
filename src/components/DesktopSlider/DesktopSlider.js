@@ -24,6 +24,7 @@ export default function DesktopSlider(){
       src={images[activeImage]} 
       className="desktop--product--image"
       alt="product"
+      onClick={() => document.querySelector('.preview-slider').style.display='flex'}
       />
       <div className="product-thumbnails">
         {thumbnails.map((thumbnail, index) => <img onClick={() => setActiveImage(index)} 

@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1000px){
+  .preview-slider-image-btn{
+    padding-top: 1rem;
+    position: relative;
+  }
+  .desktop-preview-image{
+    height: 28rem;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .closeIcon{
+    position: absolute;
+    right: -.2rem;
+    width: 1.4rem;
+    top: -1.4rem;
+  }
+  .prevIconBtn{
+    position: absolute;
+    left: -1rem;
+    top: 50%;
+    background-color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 0.6rem;
+  }
+  .nextIconBtn{
+    position: absolute;
+    top: 50%;
+    right: -1rem;
+    background-color: white;
+    padding: 0.6rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+
+  .thumbnails{
+    width: 40%;
+    text-align: center;
+    z-index: 9999;
+    padding-top: 3rem;
+
+  }
+  .thumbnail-prev{
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 1rem;
+    z-index: 999;
+
+  }
+
+}

@@ -6,6 +6,7 @@ import Addcart from './components/Addcart/Addcart';
 
 
 import { useState } from "react";
+import Preview from './components/Preview/Preview';
 
 function App() {
   const [item, setItem] = useState(0);
@@ -37,6 +38,7 @@ function App() {
       />
       <div className='desktop--page'>
         <Slideshow />
+        <Preview />
         <div className='details--addcart--comp'
         >
           <Details />
