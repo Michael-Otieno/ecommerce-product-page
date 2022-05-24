@@ -32,6 +32,10 @@
   border-radius: 50%;
 }
 
+.desktop-slider{
+    display: none;
+}
+
 @media only screen and (min-width:1000px){
   .phone--page{
     display: none;
@@ -43,13 +47,21 @@
     /* margin: 0rem 0rem; */
   }
   .details--addcart--comp{
-    width: 50%;
-    line-height: 1.5;
-    margin-top: 3rem;
+    /* width: 50%; */
+    /* line-height: 1.5; */
+    /* margin-top: 3rem; */
     line-height: 2;
-    padding-right: 4rem;
-    margin-left: 11rem;
-    max-width: 501px;
+    /* padding-right: 4rem; */
+    /* margin-left: 11rem; */
+    /* max-width: 501px; */
   }
+
+  .desktop-slider{
+    display: inline;
+  }
+  .slideshow-margin-spacer{
+    margin-inline: 6rem;
+  }
+ 
 
 }

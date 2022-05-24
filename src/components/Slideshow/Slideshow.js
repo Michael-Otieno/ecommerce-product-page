@@ -10,6 +10,9 @@ import './Slideshow.css';
 import prevBtn from "../../images/icon-next.svg";
 import nextBtn from "../../images/icon-previous.svg";
 
+import DesktopSlider from "../DesktopSlider/DesktopSlider";
+
+
 
 export default function Slideshow({imgs}){
   imgs = [
@@ -39,7 +42,7 @@ export default function Slideshow({imgs}){
 
   
   return (
-    <div>
+    <div className="slideshow-margin-spacer">
       <div className="phone--page">
         <img 
         src={imgs[index]}
@@ -62,8 +65,8 @@ export default function Slideshow({imgs}){
         </div>
 
       </div>
-      <div className="">
-        nnnnn
+      <div className="desktop-slider">
+        <DesktopSlider />
       </div>
     </div>
   )
