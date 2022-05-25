@@ -17,12 +17,15 @@ Users should be able to:
 ### Screenshot
 
 <!-- ![](./screenshot.jpg) -->
+[<img src="./active.jpg" alt="image" width="500px" height="400px">](https://ecommerce-product-page-4j0mmbaqt-michael-otieno.vercel.app/)
+[<img src="./mobile.jpg" alt="image" width="250px" height="400px">](https://ecommerce-product-page-4j0mmbaqt-michael-otieno.vercel.app/)
+
 
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-- Live link : [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend mentor page](https://www.frontendmentor.io/solutions/ecommerce-product-page-solution-63nmJ58GXj)
+- Live link : [ecommerce-product-page](https://ecommerce-product-page-4j0mmbaqt-michael-otieno.vercel.app/)
 
 
 ## My process
