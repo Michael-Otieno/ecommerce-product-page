@@ -12,6 +12,18 @@ export default function Cart(props){
     setShowCart(prevMode => !prevMode)
   }
 
+  function deleteCart(){
+    const total = document.querySelector('.total')
+    const cartDetails = document.querySelector('.cart--detail--checkout')
+    const emptyCart = document.querySelector('.cart--content');
+    const number = document.querySelector('.shoes--number');
+    total.style.display = 'none';
+    cartDetails.style.display='none'
+    emptyCart.classList.remove('none')
+    number.innerHTML=0
+
+  }
+
  
   return (
     <div className='cart--toggle'>
@@ -31,24 +43,27 @@ export default function Cart(props){
         <hr />
 
         {/* empty div */}
-        {/* <div className='cart--content'>
+        <div className='cart--content'>
           <p className='cart--empty'>Your cart is empty
           </p>
-        </div> */}
+        </div>
 
-        <div className='cart--detail--checkout'>
+        <div className='cart--detail--checkout none'>
           <div className='cart--detail--content'>
               <img 
               className='cart--image'
-              src={thumbnail} 
+              src={thumbnail}
+              alt='product' 
               />
               <p className='cart--detail--para'>
                 Autumn Limited Edition... <br />
-                $125.00 * 3 <span>$375.00</span>
+                <span className='cart-price-calc'>$125.00 * 3</span><span className='cart-price-total'>$375.00</span>
               </p>
               <img 
               className='deleteIcon'
               src={deleteIcon}
+              alt='delete icon' 
+              onClick={deleteCart}
               />
           </div>
           <div className='checkout--btn--div'>
@@ -57,6 +72,7 @@ export default function Cart(props){
             </button>
           </div>
         </div>
+
       </div>
     </div>
   )

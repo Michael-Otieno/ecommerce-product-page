@@ -19,6 +19,8 @@
   font-weight: 400;
   border: none;
   outline: none;
+  display: none;
+
 }
 
 .toggle{
@@ -100,9 +102,18 @@ hr{
 .desktop--menu{
   display: none;
 }
+.cart--empty{
+  color: #68707d;
+    font-weight: 700;
+    padding: 5em 0;
+    text-align: center;
+}
 
 .cart--detail--checkout{
   margin-top: 20px;
+}
+.none{
+  display: none;
 }
 
 .cart--detail--para{
@@ -110,7 +121,7 @@ hr{
   font-weight: 400;
 }
 
-.cart--detail--para span{
+.cart-price-total{
  font-weight: 700;
  color: #000;
 }

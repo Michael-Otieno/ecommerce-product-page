@@ -3,7 +3,6 @@
 }
 @media only screen and (min-width: 1000px){
   .preview-slider{
-    display: flex;
     position: fixed;
     top: 0;
     right: 0;

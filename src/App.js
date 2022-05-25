@@ -5,32 +5,9 @@ import Details from './components/Details/Details';
 import Addcart from './components/Addcart/Addcart';
 
 
-import { useState } from "react";
 import Preview from './components/Preview/Preview';
 
 function App() {
-  const [item, setItem] = useState(0);
-  const [price, setPrice] = useState(125);
-
-  function addItem(){
-    setPrice(125 + price)
-    setItem(item+1)
-
-  }
-
-  function subtractItem(){
-    if(item===0){
-      return
-    }
-    setPrice(price-125)
-    setItem(item-1)
-
-  }
-
-  function addToCart(){
-    console.log('cart')
-  }
-
 
   return (
     <div className="App">
@@ -43,11 +20,6 @@ function App() {
         >
           <Details />
           <Addcart
-          item={item}
-          price={price}
-          subtractItem={subtractItem}
-          addItem={addItem}
-          addToCart={addToCart}
           />
         </div>
       </div>
