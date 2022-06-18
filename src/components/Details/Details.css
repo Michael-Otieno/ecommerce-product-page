@@ -21,7 +21,6 @@
   color:  hsl(219, 9%, 45%);
   margin-top: 0;
   margin-bottom: 0;
-  padding-right: 12rem;
 }
 @media only screen and (min-width:1000px){
   .details--sub--title{
