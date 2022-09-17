@@ -1,9 +1,4 @@
-# Frontend Mentor - E-commerce product page solution
-
-This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-
-### The challenge
+# E-commerce product page solution
 
 Users should be able to:
 
@@ -14,43 +9,51 @@ Users should be able to:
 - Add items to the cart
 - View the cart and remove items from it
 
-### Screenshot
+## Screenshot
 
-<!-- ![](./screenshot.jpg) -->
 [<img src="./active.jpg" alt="image" width="500px" height="400px">](https://ecommerce-product-page-4j0mmbaqt-michael-otieno.vercel.app/)
 [<img src="./mobile.jpg" alt="image" width="250px" height="400px">](https://ecommerce-product-page-4j0mmbaqt-michael-otieno.vercel.app/)
 
 
 
-### Links
+## Links
 
-- Solution URL: [Frontend mentor page](https://www.frontendmentor.io/solutions/ecommerce-product-page-solution-63nmJ58GXj)
 - Live link : [ecommerce-product-page](https://ecommerce-product-page-4j0mmbaqt-michael-otieno.vercel.app/)
 
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
 
+## Requirements
 
+- Install Node/NPM package in your computer
 
-### Useful resources
+## Runnig the project
 
-- Reactjs : [React documentation](https://reactjs.org/)
+- git clone https://github.com/Michael-Otieno/recipe-app/
+- In the project directory, run npm i
+- In the project directory, run npm start to start the project
+- Open http://localhost:3000 to view it in your browser.
 
-*
-## Author
-
-- Website - [Michael Otieno](https://otieno-mike.netlify.app/dist/index.html)
-- Twitter - [@mike_can_code](https://www.twitter.com/mike_can_code)
-- Linkedin - [Michael Otieno](https://www.linkedin.com/in/michael-oduor-otieno/)
+## Further help
+- Feel free to fork and initiate changes that may improve the site.
+- For any assistances, contact m.otieno205@gmail.com.
 
 
 ## Acknowledgments
 - [Frontend Mentor](frontendmentor.io/challenges)
+
+## MIT Licence
+Copyright (c) 2020 Michael Otieno
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
