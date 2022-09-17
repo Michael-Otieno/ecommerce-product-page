@@ -34,7 +34,7 @@ Users should be able to:
 
 ## Runnig the project
 
-- git clone https://github.com/Michael-Otieno/recipe-app/
+- git clone https://github.com/Michael-Otieno/ecommerce-product-page/
 - In the project directory, run npm i
 - In the project directory, run npm start to start the project
 - Open http://localhost:3000 to view it in your browser.
